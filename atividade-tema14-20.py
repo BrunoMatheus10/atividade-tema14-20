@@ -9,6 +9,6 @@ def is_prime(n):
 # Testando a função com um exemplo
 numero = int(input("Digite um número inteiro: "))
 if is_prime(numero):
-    print(f"{numero} é um número primo.")
+    print(numero, "é um número primo.")
 else:
-    print(f"{numero} não é um número primo.")
+    print(numero, "não é um número primo.")
